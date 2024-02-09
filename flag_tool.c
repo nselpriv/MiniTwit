@@ -19,6 +19,7 @@ static int callback(void *data, int argc, char **argv, char **azColName) {
   return 0;
 }
 
+
 int main(int argc, char *argv[]) {
   sqlite3 *db;
   char *zErrMsg = 0;
